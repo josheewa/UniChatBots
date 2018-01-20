@@ -8,7 +8,5 @@ roomBOT.executeCommand =  function(data) {
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
  
-   if (message == message) {
-  	roomBOT.respond("Here is the link: " + "https://legend-of-iphoenix.github.io/UniChatDemo/?room=" + message);
-  }
+  roomBOT.respond("Here is the link: " + "https://legend-of-iphoenix.github.io/UniChatDemo/?room=" + message);
 }
