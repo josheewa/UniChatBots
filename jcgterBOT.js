@@ -1,4 +1,4 @@
-var jcgterBOT = new Bot("jcgterBOT", "#");
+var jcgterBOT = new Bot("jcgterBOT", "~");
 function initializeBots() {
   jcgterBOT.register();
 }
@@ -7,6 +7,29 @@ jcgterBOT.executeCommand =  function(data) {
   var message = data.message;
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
- 
-  jcgterBOT.respond();
+   
+  if (message.substring(0,4) == "ping") {
+  	jcgterBOT.respond(poster + ": Pong!");
+  }
+}
+
+  if (message.substring(0,5) == "hello") {
+  	jcgterBOT.respond(poster + ": Hello to you too!");
+  }
+}
+  if (message.substring(0,8) == "I am sad") {
+  	jcgterBOT.respond(poster + ": Awww.");
+  }
+}
+  if (message.substring(0,10) == "jcgterinfo") {
+  	jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
+  }
+}
+  if (message.substring(0,8) == "karma me") {
+  	jcgterBOT.respond(poster + ": No, that is illegal.");
+  }
+}
+if (message.substring(0,8) == "botssuck") {
+  	jcgterBOT.respond(poster + ": That is RUDE, and mean.");
+  }
 }
