@@ -12,6 +12,6 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 [roomBOT]Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
 
 ### Credits
-_iPhoenix_ for UniChat
+\_iPhoenix\_ for UniChat
 
 LAX18 for helping with UniChat
