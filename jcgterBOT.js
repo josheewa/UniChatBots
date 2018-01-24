@@ -30,6 +30,26 @@ jcgterBOT.executeCommand =  function(data) {
   }
 }
 if (message.substring(0,8) == "botssuck") {
-  	jcgterBOT.respond(poster + ": That is RUDE, and mean.");
+  	jcgterBOT.respond("That is RUDE, mean, and wrong.");
+  }
+}
+if (message.substring(0,6) == "tanner") {
+  	jcgterBOT.respond("Stop abusing the bot.");
+  }
+}
+if (message.substring(0,7) == "UniChat") {
+  	jcgterBOT.respond("UniChat++ is awesome!");
+  }
+}
+if (message.substring(0,7) == "unichat") {
+  	jcgterBOT.respond("UniChat++ is awesome!");
+  }
+}
+if (message.substring(0,7) == "UNICHAT") {
+  	jcgterBOT.respond("UniChat++ is awesome!");
+  }
+}
+if (message.substring(0,8) == "botabuse") {
+  	jcgterBOT.respond("Stop abusing the bots.");
   }
 }
