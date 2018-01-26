@@ -41,3 +41,11 @@ if (message.substring(0,7) == "ninja'd") {
   	jcgterBOT.respond("Someone typed faster to express the same sentiment.");
   }
 }
+if (message.substring(0,8) == "capslock") {
+  	jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
+  }
+}
+if (message.substring(0,4) == "caps") {
+  	jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
+  }
+}
