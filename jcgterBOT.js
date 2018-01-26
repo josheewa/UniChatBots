@@ -37,3 +37,7 @@ if (message.substring(0,8) == "botabuse") {
   	jcgterBOT.respond("Stop abusing the bots.");
   }
 }
+if (message.substring(0,7) == "ninja'd") {
+  	jcgterBOT.respond("Someone typed faster to express the same sentiment.");
+  }
+}
