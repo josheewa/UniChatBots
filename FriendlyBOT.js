@@ -1,7 +1,3 @@
-var FriendlyBOT = new Bot("FriendlyBOT", "o");
-function initializeBots() {
-  FriendlyBOT.register();
-}
 FriendlyBOT.executeCommand =  function(data) {
   var poster = data.poster;
   var message = data.message;
