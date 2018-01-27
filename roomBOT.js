@@ -1,3 +1,7 @@
+var roomBOT = new Bot("roomBOT", "");
+function initializeBots() {
+  roomBOT.register();
+}
 roomBOT.executeCommand =  function(data) {
   var poster = data.poster;
   var message = data.rawMessage;
