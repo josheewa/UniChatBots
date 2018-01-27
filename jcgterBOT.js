@@ -56,7 +56,7 @@ if (message.substring(0,5) == "karme") {
   jcgterBOT.respond("Here you go: _iPheonix_++!");
   if (poster == "LAX18")
   jcgterBOT.respond("Here you go: IAX18++");
-  if (poster != "jcgter777" || "_iPhoenix_" || "LAX18")
+  if (poster != "jcgter777" or "_iPhoenix_" or "LAX18")
   jcgterBOT.respond(poster: + " Here: " + poster + "--" + " Because you suck, no offense. :P");
 }
                
