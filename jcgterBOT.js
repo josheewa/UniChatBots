@@ -49,3 +49,15 @@ if (message.substring(0,4) == "caps") {
   	jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
   }
 }
+if (message.substring(0,5) == "karme") {
+  if poster == "jcgter777"	
+  jcgterBOT.respond("Here you go: jctger777++!");
+  if poster == "_iPhoenix_"
+  jcgterBOT.respond("Here you go: _iPheonix_++!");
+  if (poster == "LAX18")
+  jcgterBOT.respond("Here you go: IAX18++");
+  if (poster != "jcgter777" or "_iPhoenix_" or "LAX18")
+  jcgterBOT.respond(poster: + " Here: " + poster + "--" + " Because you suck, no offense. :P");
+}
+               
+}
