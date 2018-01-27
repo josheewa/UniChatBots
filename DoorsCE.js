@@ -49,4 +49,4 @@ DoorsCE.executeCommand = function(data) {
    if (message.substring(0, 4) == "kiwf") {
     DoorsCE.respond("Kill it with FIRE 🔥!!!");
  }
-
+  DoorsCE.defineSimpleCommand(":P","stahp! That looks cringy.");
