@@ -63,4 +63,4 @@ jcgterBOT.executeCommand = function (data) {
   }
 }
  if (message.substring(0, 4) == "kiwf") {
-    jcgterBOT.respond("Kill it with FIRE!!! 🔥");
+    jcgterBOT.respond("Kill it with FIRE!!!");
