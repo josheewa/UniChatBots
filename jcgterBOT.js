@@ -46,6 +46,16 @@ jcgterBOT.executeCommand = function(data) {
   if (message.substring(0, 4) == "caps") {
     jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
   }
+   if (message.substring(0, 4) == "kiwf") {
+    jcgterBOT.respond("Kill it with FIRE 🔥!!!");
+ }
+  
+  
+  
+  
+  
+  
+  //Keep this at the end
   if (message.substring(0, 5) == "incrementme") {
     if (poster == "jcgter777") {
       jcgterBOT.respond("Here you go: jcgter777+" + String.fromCharCode(6158) + "+!");
@@ -61,7 +71,4 @@ jcgterBOT.executeCommand = function(data) {
       }
     }
   }
-
- if (message.substring(0, 4) == "kiwf") {
-    jcgterBOT.respond("Kill it with FIRE 🔥!!!");
- }
+}
