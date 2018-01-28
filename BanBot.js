@@ -18,4 +18,7 @@ BanBot.executeCommand = function (data) {
   if (message.substring(0, 3) == "ban") {
     BanBot.respond(getArgs(rawMessage)[1] + " has been banned for 1 eternity.");
   }
+  if (message.substring(0, 4) == "kick") {
+    BanBot.respond(getArgs(rawMessage)[1] + " has been kicked out of this world!!");
+  }
 }
