@@ -1,4 +1,4 @@
-var DoorsCE = new Bot("DoorsCE", "!")
+var DoorsCE = new Bot("DoorsCE", "~");
 
 function initializeBots() {
   DoorsCE.register();
@@ -12,11 +12,10 @@ DoorsCE.executeCommand = function(data) {
   if (message.substring(0, 4) == "ping") {
     DoorsCE.respond(poster + ": Pong!");
   }
-
   if (message.substring(0, 5) == "hello") {
     DoorsCE.respond(poster + ": Hello to you too!");
   }
-  if (message.substring(0, 8) == "i am sad") {
+  if (message.substring(0, 8) == "sad") {
     DoorsCE.respond(poster + ": Awww.");
   }
   if (message.substring(0, 10) == "jcgterinfo") {
@@ -28,11 +27,8 @@ DoorsCE.executeCommand = function(data) {
   if (message.substring(0, 8) == "botssuck") {
     DoorsCE.respond("That is RUDE, mean, and wrong.");
   }
-  if (message.substring(0, 6) == "tanner") {
-    DoorsCE.respond("Stop abusing the bot.");
-  }
   if (message.substring(0, 7) == "unichat") {
-    DoorsCE.respond("UniChat++ is awesome!");
+    DoorsCE.respond("UniChat is awesome!");
   }
   if (message.substring(0, 8) == "botabuse") {
     DoorsCE.respond("Stop abusing the bots.");
@@ -41,17 +37,12 @@ DoorsCE.executeCommand = function(data) {
     DoorsCE.respond("Someone typed faster to express the same sentiment.");
   }
   if (message.substring(0, 8) == "capslock") {
-    DoorsCE.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
+    DoorsCE.respond("Pro tip: The [caps lock] key to the left of [a] allows you to type lowercase letters.");
   }
   if (message.substring(0, 4) == "caps") {
-    DoorsCE.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
+    DoorsCE.respond("Pro tip: The [caps lock] key to the left of [a] allows you to type lowercase letters.");
   }
    if (message.substring(0, 4) == "kiwf") {
     DoorsCE.respond("Kill it with FIRE 🔥!!!");
-  }
-  if (message.substring(0, 4) == "lag") {
-    DoorsCE.respond("It's your own horrid connection! :P");
-  }
-  if (message.substring(0, 8) == "iPhoenix") {
-    DoorsCE.respond("iPhoenix is still not your personal programmer!");
-  }
+ }
+
