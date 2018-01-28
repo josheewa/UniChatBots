@@ -9,46 +9,42 @@ jcgterBOT.executeCommand = function(data) {
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
 
-  if (message.substring(0, 4) == "ping") {
+  if (message.startsWith("ping"))
     jcgterBOT.respond(poster + ": Pong!");
-  }
-
-  if (message.substring(0, 5) == "hello") {
+  
+  if (message.startsWith("hello"))
     jcgterBOT.respond(poster + ": Hello to you too!");
-  }
-  if (message.substring(0, 8) == "i am sad") {
+  
+  if (message.startsWith("i am sad"))
     jcgterBOT.respond(poster + ": Awww.");
-  }
-  if (message.substring(0, 10) == "jcgterinfo") {
+
+  if (message.startsWith("jcgterinfo"))
     jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
-  }
-  if (message.substring(0, 8) == "karma me") {
+
+  if (message.startsWith("karma me"))
     jcgterBOT.respond(poster + ": No, that is illegal.");
-  }
-  if (message.substring(0, 8) == "botssuck") {
+
+  if (message.startsWith("botssuck"))
     jcgterBOT.respond("That is RUDE, mean, and wrong.");
-  }
-  if (message.substring(0, 6) == "tanner") {
+
+  if (message.startsWith("tanner"))
     jcgterBOT.respond("Stop abusing the bot.");
-  }
-  if (message.substring(0, 7) == "unichat") {
+
+  if (message.startsWith("unichat"))
     jcgterBOT.respond("UniChat++ is awesome!");
-  }
-  if (message.substring(0, 8) == "botabuse") {
+
+  if (message.startsWith("botabuse"))
     jcgterBOT.respond("Stop abusing the bots.");
-  }
-  if (message.substring(0, 7) == "ninja'd") {
+
+  if (message.startsWith("ninja'd"))
     jcgterBOT.respond("Someone typed faster to express the same sentiment.");
-  }
-  if (message.substring(0, 8) == "capslock") {
+
+  if (message.startsWith("capslock") || message.startsWith("caps"))
     jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
-  }
-  if (message.substring(0, 4) == "caps") {
-    jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
-  }
-   if (message.substring(0, 4) == "kiwf") {
+
+   if (message.startsWith("kiwf"))
     jcgterBOT.respond("Kill it with FIRE 🔥!!!");
- }
+
   
   
   
@@ -56,7 +52,7 @@ jcgterBOT.executeCommand = function(data) {
   
   
   //Keep this at the end
-  if (message.substring(0, 5) == "incrementme") {
+  if (message.startsWith("incrementme")) {
     if (poster == "jcgter777") {
       jcgterBOT.respond("Here you go: jcgter777+" + String.fromCharCode(6158) + "+!");
     } else {
