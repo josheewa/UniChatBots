@@ -1,4 +1,4 @@
-var DoorsCE = new Bot("DoorsCE", "!")
+var DoorsCE = new Bot("DoorsCE", "!");
 
 function initializeBots() {
   DoorsCE.register();
