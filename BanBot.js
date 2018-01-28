@@ -10,6 +10,6 @@ BanBot.executeCommand =  function(data) {
  
   getArgs("/ban username")[1]
    if (message.substring(0,3) == "ban") {
-  	BanBot.respond(user + " has been banned for ~1 eternity.");
+  	BanBot.respond(username + " has been banned for ~1 eternity.");
   }
 }
