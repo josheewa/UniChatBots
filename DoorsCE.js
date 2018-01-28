@@ -55,3 +55,5 @@ DoorsCE.executeCommand = function(data) {
   if (message.substring(0, 8) == "iPhoenix") {
     DoorsCE.respond("iPhoenix is still not your personal programmer!");
   }
+  if (message.substring(0, 8) == ":P") {
+    DoorsCE.respond("stahp! That looks cringy.");
