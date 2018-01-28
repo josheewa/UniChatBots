@@ -1,4 +1,4 @@
-var DoorsCE = new Bot("DoorsCE", "~");
+var DoorsCE = new Bot("DoorsCE", "!")
 
 function initializeBots() {
   DoorsCE.register();
@@ -48,5 +48,8 @@ DoorsCE.executeCommand = function(data) {
   }
    if (message.substring(0, 4) == "kiwf") {
     DoorsCE.respond("Kill it with FIRE 🔥!!!");
- }
+  }
+  if (message.substring(0, 4) == "lag") {
+    DoorsCE.respond("It's your own horrid connection! :P");
+  }
 
