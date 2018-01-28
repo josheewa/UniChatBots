@@ -52,4 +52,6 @@ DoorsCE.executeCommand = function(data) {
   if (message.substring(0, 4) == "lag") {
     DoorsCE.respond("It's your own horrid connection! :P");
   }
-
+  if (message.substring(0, 8) == "iPhoenix") {
+    DoorsCE.respond("iPhoenix is still not your personal programmer!");
+  }
