@@ -56,7 +56,7 @@ jcgterBOT.executeCommand = function(data) {
   
   
   //Keep this at the end
-  if (message.substring(0, 5) == "incrementme") {
+  if (message.substring(0, 5) == "karme") {
     if (poster == "jcgter777") {
       jcgterBOT.respond("Here you go: jcgter777+" + String.fromCharCode(6158) + "+!");
     } else {
