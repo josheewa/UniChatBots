@@ -4,14 +4,14 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 ## Bots on UniChat already (Will be edited)
 
 ### FriendlyBOT
-user: o/
+**user**: o/
 
 **[FriendlyBOT] waves back at user
 
 ### roomBOT
-[user]roomBot: #spam
+**user**: roomBot: #spam  (roomBot: spam works as well.)
 
-[roomBOT]Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
+[roomBOT]: Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
 
 (**Not using the "\#\" works as well.**)
 ## Bots in progress
