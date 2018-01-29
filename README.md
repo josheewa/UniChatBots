@@ -4,9 +4,9 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 ## Bots on UniChat already (Will be edited)
 
 ### FriendlyBOT
-[user]o/
+user: o/
 
-**FriendlyBOT waves back at user
+**[FriendlyBOT] waves back at user
 
 ### roomBOT
 [user]roomBot: #spam
