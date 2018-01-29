@@ -13,6 +13,14 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 
 ## Bots in progress
 
+### BanBot
+You can fake ban or kick someone
+
+### jcgterBOT
+Lots of different commands
+
+### DoorsCE
+Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though.
 ### Credits
 \_iPhoenix\_ for UniChat
 
