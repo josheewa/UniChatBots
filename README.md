@@ -14,18 +14,25 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 **Not using the "\#\" works the same way**
 ## Bots in progress
 
+### UniChat
+A bot that tells you when someone enters and leaves the room. It works, but it's not on UniChat yet. I'm trying to make a command that can deactivate the bot for certain help. 
+
 ### BanBot
-You can fake ban or kick someone
+You can fake ban or kick someone. It works, but it's not on UniChat. Now, I just need \_iPhoenix\_ to help me make the person actually become "inactive", as in their name disappears from the side bar for 10 seconds. 
 
 ### jcgterBOT
-Lots of different commands
+Lots of different commands. Activated with "~". I need to fix an error with some part of the code. Most likely "~karme".
 
 ### DoorsCE
-Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though.
+Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though. This is activated with "!". There are still bugs with this. 
 
 ### ExpBot
-Mainly for me to experiment with js and commands
+Mainly for me to experiment with js and commands.
+
 ### Credits
-\_iPhoenix\_ for UniChat
+\_iPhoenix\_ for UniChat and help with my bots
+
+123outerme for help with my bots.
 
 LAX18 for helping with UniChat
+## Thanks guys!
