@@ -13,7 +13,7 @@ user: o/
 
 [roomBOT]Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
 
-**Not using the "\#\" works the same way**
+(**Not using the "\#\" works as well.**)
 ## Bots in progress
 
 ### UniChat
