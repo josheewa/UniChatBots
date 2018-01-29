@@ -32,9 +32,9 @@ Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. I
 Mainly for me to experiment with js and commands.
 
 ### Credits
-\_iPhoenix\_ for UniChat and help with my bots
+**\_iPhoenix\_** for UniChat and help with my bots
 
-123outerme for help with my bots.
+**123outerme** for help with my bots.
 
-LAX18 for helping with UniChat
-## Thanks guys!
+**LAX18** for helping with UniChat
+***Thanks guys!***
