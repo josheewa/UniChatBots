@@ -7,10 +7,11 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 **FriendlyBOT waves back at user
 
 ### roomBOT
-[user]#spam
+[user]roomBot: #spam
 
 [roomBOT]Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
 
+**Not using the "\#\" works the same way**
 ## Bots in progress
 
 ### BanBot
@@ -21,6 +22,7 @@ Lots of different commands
 
 ### DoorsCE
 Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though.
+
 ### Credits
 \_iPhoenix\_ for UniChat
 
