@@ -1,6 +1,8 @@
 # UniChatBots
 This is the place where I'll be experimenting with making UniChat Bots. As of right now, I have two bots that are up on UniChat. 
 
+## Bots on UniChat already (Will be edited)
+
 ### FriendlyBOT
 [user]o/
 
