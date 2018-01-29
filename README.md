@@ -20,7 +20,7 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 A bot that tells you when someone enters and leaves the room. It works, but it's not on UniChat yet. I'm trying to make a command that can deactivate the bot for certain help. 
 
 ### BanBot
-You can fake ban or kick someone. It works, but it's not on UniChat. Now, I just need \_iPhoenix\_ to help me make the person actually become "inactive", as in their name disappears from the side bar for 10 seconds. 
+You can fake ban or kick someone. It works, but it's not on UniChat. Now, I just need \_iPhoenix\_ to help me make the person *actually* become "inactive", as in their name disappears from the side bar for ~10 seconds, as a joke. (I'll make it so that if you don't want this to happen to you, that you can ask me to put in an exception.)
 
 ### jcgterBOT
 Lots of different commands. Activated with "~". I need to fix an error with some part of the code. Most likely "~karme".
