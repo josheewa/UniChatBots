@@ -22,7 +22,7 @@ jcgterBOT.executeCommand = function(data) {
   if (message.substring(0, 10) == "jcgterinfo") {
     jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
   }
-  if (message.substring(0, 8) == "karma me") {
+  if (message.substring(0, 7) == "karmame") {
     jcgterBOT.respond(poster + ": No, that is illegal.");
   }
   if (message.substring(0, 8) == "botssuck") {
