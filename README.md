@@ -1,5 +1,5 @@
 # UniChatBots
-This is the place where I'll be experimenting with making UniChat Bots. As of right now, I have two bots that are up on UniChat. 
+This is the place where I'll be experimenting with making UniChat Bots. As of right now, I have two bots that are up on UniChat, and 5 that are in progress. 
 
 ## Bots on UniChat already (Will be edited)
 
