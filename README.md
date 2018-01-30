@@ -32,9 +32,14 @@ Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. I
 Mainly for me to experiment with js and commands.
 
 ### Credits
+
+**jonbush** for fixing DoorsCE and helping me with jcgterBOT. 
+
 **\_iPhoenix\_** for UniChat and help with my bots
 
 **123outerme** for help with my bots.
 
-**LAX18** for helping with UniChat
+**LAX18** for helping with UniChat.
+
+**[JSHint](http://jshint.com/)** for helping me find errors in my code.
 ***Thanks guys!***
