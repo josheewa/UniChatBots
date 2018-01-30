@@ -45,13 +45,13 @@ jcgterBOT.executeCommand = function(data) {
  
   if (message.startsWith("karme")) {
     if (poster == "jcgter777") {
-      jcgterBOT.respond("Here you go: jctger777++!");
+      jcgterBOT.respond("Here you go: jctger777++! You're awesome!");
     } else if (poster == "_iPhoenix_") {
-      jcgterBOT.respond("Here you go: _iPheonix_++!");
+      jcgterBOT.respond("Here you go: _iPheonix_++! You're awesome!");
     } else if (poster == "LAX18") {
-      jcgterBOT.respond("Here you go: LAX16++!");
+      jcgterBOT.respond("Here you go: LAX16++! You're awesome!");
     } else {
-      jcgterBOT.respond(poster + ": Here: " + poster + "--" + " Because you suck, no offense. :P" : ""));
+      jcgterBOT.respond(poster + ": Here: " + poster + "+-" + " Because you suck, no offense. :P" : ""));
     }
   }
 }
