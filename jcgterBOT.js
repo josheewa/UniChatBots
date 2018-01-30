@@ -12,7 +12,7 @@ jcgterBOT.executeCommand = function(data) {
 
   if (message.startsWith("ping"))
     jcgterBOT.respond(poster + ": Pong!");
-  
+ 
   if (message.startsWith("hello"))
     jcgterBOT.respond(poster + ": Hello to you too!");
   
@@ -51,8 +51,7 @@ jcgterBOT.executeCommand = function(data) {
     } else if (poster == "LAX18") {
       jcgterBOT.respond("Here you go: LAX16++!");
     } else {
-      jcgterBOT.respond(poster: +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
+      jcgterBOT.respond(poster + ":" +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
     }
   }
-
 }
