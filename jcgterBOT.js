@@ -51,24 +51,18 @@ jcgterBOT.executeCommand = function(data) {
  }
   
   
-  
-  
-  
-  
-  //Keep this at the end
+ 
   if (message.substring(0, 5) == "karme") {
     if (poster == "jcgter777") {
-      jcgterBOT.respond("Here you go: jcgter777+" + String.fromCharCode(6158) + "+!");
+      jcgterBOT.respond("Here you go: jctger777++!");
     } else {
       if (poster == "_iPhoenix_") {
-        jcgterBOT.respond("Here you go: _iPhoenix_+" + String.fromCharCode(6158) + "+!");
+        jcgterBOT.respond("Here you go: _iPheonix_++!");
       } else {
         if (poster == "LAX18") {
-          jcgterBOT.respond("Here you go: LAX18+" + String.fromCharCode(6158) + "+!");
+          jcgterBOT.respond("Here you go: LAX16++!");
         } else {
           jcgterBOT.respond(poster: +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
         }
       }
     }
-  }
-}
