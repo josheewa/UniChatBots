@@ -3,6 +3,7 @@ var jcgterBOT = new Bot("jcgterBOT", "~");
 function initializeBots() {
   jcgterBOT.register();
 }
+
 jcgterBOT.executeCommand = function(data) {
   var poster = data.poster;
   var message = data.message;
@@ -20,10 +21,6 @@ jcgterBOT.executeCommand = function(data) {
 
   if (message.startsWith("jcgterinfo"))
     jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
-
-  }
-  if (message.startsWith(0, 7) == "karme") {
-    jcgterBOT.respond(poster + ": No, that is illegal.");
 
   if (message.startsWith("botssuck"))
     jcgterBOT.respond("That is RUDE, mean, and wrong.");
@@ -43,23 +40,19 @@ jcgterBOT.executeCommand = function(data) {
   if (message.startsWith("capslock") || message.startsWith("caps"))
     jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
 
-   if (message.startsWith("kiwf"))
+  if (message.startsWith("kiwf"))
     jcgterBOT.respond("Kill it with FIRE 🔥!!!");
-
-  
  
- 
-  if (message.startsWith(0, 5) == "karme") {
+  if (message.startsWith("karme")) {
     if (poster == "jcgter777") {
       jcgterBOT.respond("Here you go: jctger777++!");
+    } else if (poster == "_iPhoenix_") {
+      jcgterBOT.respond("Here you go: _iPheonix_++!");
+    } else if (poster == "LAX18") {
+      jcgterBOT.respond("Here you go: LAX16++!");
     } else {
-      if (poster == "_iPhoenix_") {
-        jcgterBOT.respond("Here you go: _iPheonix_++!");
-      } else {
-        if (poster == "LAX18") {
-          jcgterBOT.respond("Here you go: LAX16++!");
-        } else {
-          jcgterBOT.respond(poster: +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
-        }
-      }
+      jcgterBOT.respond(poster: +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
     }
+  }
+
+}
