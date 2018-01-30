@@ -51,7 +51,7 @@ jcgterBOT.executeCommand = function(data) {
     } else if (poster == "LAX18") {
       jcgterBOT.respond("Here you go: LAX16++!");
     } else {
-      jcgterBOT.respond(poster + ": Here: " + poster + "--" + ((Math.random() < 0.3) ? " Because you suck, no offense. :P" : ""));
+      jcgterBOT.respond(poster + ": Here: " + poster + "--" + " Because you suck, no offense. :P" : ""));
     }
   }
 }
