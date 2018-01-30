@@ -8,52 +8,48 @@ DoorsCE.executeCommand = function(data) {
   var message = data.message;
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
+ if (message.startsWith("ping"))
+    jcgterBOT.respond(poster + ": Pong!");
+  
+  if (message.startsWith("hello"))
+    jcgterBOT.respond(poster + ": Hello to you too!");
+  
+  if (message.startsWith("i am sad"))
+    jcgterBOT.respond(poster + ": Awww.");
 
-  if (message.substring(0, 4) == "ping") {
-    DoorsCE.respond(poster + ": Pong!");
-  }
+  if (message.startsWith("jcgterinfo"))
+    jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
 
-  if (message.substring(0, 5) == "hello") {
-    DoorsCE.respond(poster + ": Hello to you too!");
-  }
-  if (message.substring(0, 8) == "i am sad") {
-    DoorsCE.respond(poster + ": Awww.");
-  }
-  if (message.substring(0, 10) == "jcgterinfo") {
-    DoorsCE.respond(poster + ": DoorsCE is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
-  }
-  if (message.substring(0, 8) == "karma me") {
-    DoorsCE.respond(poster + ": No, that is illegal.");
-  }
-  if (message.substring(0, 8) == "botssuck") {
-    DoorsCE.respond("That is RUDE, mean, and wrong.");
-  }
-  if (message.substring(0, 6) == "tanner") {
-    DoorsCE.respond("Stop abusing the bot.");
-  }
-  if (message.substring(0, 7) == "unichat") {
-    DoorsCE.respond("UniChat++ is awesome!");
-  }
-  if (message.substring(0, 8) == "botabuse") {
-    DoorsCE.respond("Stop abusing the bots.");
-  }
-  if (message.substring(0, 7) == "ninja'd") {
-    DoorsCE.respond("Someone typed faster to express the same sentiment.");
-  }
-  if (message.substring(0, 8) == "capslock") {
-    DoorsCE.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
-  }
-  if (message.substring(0, 4) == "caps") {
-    DoorsCE.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
-  }
-   if (message.substring(0, 4) == "kiwf") {
-    DoorsCE.respond("Kill it with FIRE 🔥!!!");
-  }
-  if (message.substring(0, 4) == "lag") {
+  if (message.startsWith("karma me"))
+    jcgterBOT.respond(poster + ": No, that is illegal.");
+
+  if (message.startsWith("botssuck"))
+    jcgterBOT.respond("That is RUDE, mean, and wrong.");
+
+  if (message.startsWith("tanner"))
+    jcgterBOT.respond("Stop abusing the bot.");
+
+  if (message.startsWith("unichat"))
+    jcgterBOT.respond("UniChat++ is awesome!");
+
+  if (message.startsWith("botabuse"))
+    jcgterBOT.respond("Stop abusing the bots.");
+
+  if (message.startsWith("ninja'd"))
+    jcgterBOT.respond("Someone typed faster to express the same sentiment.");
+
+  if (message.startsWith("capslock") || message.startsWith("caps"))
+    jcgterBOT.respond("Pro tip: The [caps lock] key to the left ot [a] allows you to type lowercase letters.");
+
+   if (message.startsWith("kiwf"))
+    jcgterBOT.respond("Kill it with FIRE 🔥!!!");
+  
+  if (message.startsWith("lag"))
     DoorsCE.respond("It's your own horrid connection! :P");
-  }
-  if (message.substring(0, 8) == "iPhoenix") {
+
+  if (message.startsWith("iPhoenix"))
     DoorsCE.respond("iPhoenix is still not your personal programmer!");
-  }
-  if (message.substring(0, 8) == ":P") {
+  
+  if (message.startsWith(":P"))
     DoorsCE.respond("stahp! That looks cringy.");
+}
