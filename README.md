@@ -33,7 +33,7 @@ Mainly for me to experiment with js and commands.
 
 ### Credits
 
-**jonbush** for fixing DoorsCE and helping me with jcgterBOT. 
+**jonbush** for fixing DoorsCE jcgterBOT. JONBUSH IS AWESOME!!! 
 
 **\_iPhoenix\_** for UniChat and help with my bots
 
