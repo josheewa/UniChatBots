@@ -21,7 +21,8 @@ jcgterBOT.executeCommand = function(data) {
   if (message.startsWith("jcgterinfo"))
     jcgterBOT.respond(poster + ": jcgterBOT is a bot made by jcgter777 on 1/20/2018 for the great UniChat!");
 
-  if (message.startsWith("karma me"))
+  }
+  if (message.startsWith(0, 7) == "karme") {
     jcgterBOT.respond(poster + ": No, that is illegal.");
 
   if (message.startsWith("botssuck"))
@@ -46,25 +47,19 @@ jcgterBOT.executeCommand = function(data) {
     jcgterBOT.respond("Kill it with FIRE 🔥!!!");
 
   
-  
-  
-  
-  
-  
-  //Keep this at the end
-  if (message.startsWith("incrementme")) {
+ 
+ 
+  if (message.startsWith(0, 5) == "karme") {
     if (poster == "jcgter777") {
-      jcgterBOT.respond("Here you go: jcgter777+" + String.fromCharCode(6158) + "+!");
+      jcgterBOT.respond("Here you go: jctger777++!");
     } else {
       if (poster == "_iPhoenix_") {
-        jcgterBOT.respond("Here you go: _iPhoenix_+" + String.fromCharCode(6158) + "+!");
+        jcgterBOT.respond("Here you go: _iPheonix_++!");
       } else {
         if (poster == "LAX18") {
-          jcgterBOT.respond("Here you go: LAX18+" + String.fromCharCode(6158) + "+!");
+          jcgterBOT.respond("Here you go: LAX16++!");
         } else {
           jcgterBOT.respond(poster: +" Here: " + poster + "--" + (Math.random() < 0.3) ? " Because you suck, no offense. :P" : "");
         }
       }
     }
-  }
-}
