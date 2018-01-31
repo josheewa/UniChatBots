@@ -9,9 +9,6 @@ jcgterBOT.executeCommand = function(data) {
   var message = data.message;
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
-
-  if (message.startsWith("ping"))
-    jcgterBOT.respond(poster + ": Pong!");
  
   if (message.startsWith("hello"))
     jcgterBOT.respond(poster + ": Hello to you too!");
@@ -42,7 +39,20 @@ jcgterBOT.executeCommand = function(data) {
 
   if (message.startsWith("kiwf"))
     jcgterBOT.respond("Kill it with FIRE 🔥!!!");
- 
+  
+  if (message.startsWith("getrekt"))
+    jcgterBOT.respond("Someone got chucked in a house in the middle of demolition?");
+  
+  if (message.startsWith("roasted"))
+    jcgterBOT.respond("Someone's up for sale at the BBQ place?");
+  
+  if (message.startsWith("omg"))
+    jcgterBOT.respond("Oh my gosh! WHat happened?");
+  
+  if (message.startsWith("dce"))
+    jcgterBOT.respond("DoorsCE's been delayed because of all you noobs asking for it!!!!!!");
+  
+ //keep this at the end so nothing will go wrong
   if (message.startsWith("karme")) {
     if (poster == "jcgter777") {
       jcgterBOT.respond("Here you go: jctger777++! You're awesome!");
