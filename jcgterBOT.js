@@ -7,9 +7,13 @@ function initializeBots() {
 jcgterBOT.executeCommand = function(data) {
   var poster = data.poster;
   var message = data.message;
+  var rawMessage = data.rawMessage;
   var timestamp = data.timestamp;
   var raw_timestamp = data.rawTimestamp;
  
+  function getArgs(m) {
+    return m.split(' ');
+  }
   if (message.startsWith("hello"))
     jcgterBOT.respond(poster + ": Hello to you too!");
   
@@ -51,6 +55,17 @@ jcgterBOT.executeCommand = function(data) {
   
   if (message.startsWith("dce"))
     jcgterBOT.respond("DoorsCE's been delayed because of all you noobs asking for it!!!!!!");
+  
+  if (message.startsWith("jcgter777"))
+    jcgterBOT.respond("jcgter777: " + poster + " says hi!");
+  
+  if (message.startsWith("cookie"))
+    jcgterBOT.respond("Someone wanted you to have this cookie.");
+    
+  if (message.startsWith("give"))
+    jcgterBOT.respond(getArgs(rawMessage)[1] + ": " + "Someone wanted you to have this " + getArgs(rawMessage)[2]);
+    
+    
   
  //keep this at the end so nothing will go wrong
   if (message.startsWith("karme")) {
