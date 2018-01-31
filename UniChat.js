@@ -13,7 +13,6 @@ UniChat.executeCommand =  function(data) {
 UniChat.userJoined = function(data) { 
   	UniChat.respond(user + " entered the room.");
   }
-}
 UniChat.userLeft = function(data) {
     UniChat.respond(user + " left the room.");
    }
