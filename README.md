@@ -33,16 +33,18 @@ Mainly for me to experiment with js and commands.
 
 ### Credits
 
-**jonbush** for fixing DoorsCE jcgterBOT. JONBUSH IS AWESOME!!! 
+**jonbush** for fixing DoorsCE jcgterBOT. 
 
-**\_iPhoenix\_** for UniChat and help with my bots. IPHOENIX IS AWESOME!!!
+**\_iPhoenix\_** for UniChat and help with my bots. 
 
-**123outerme** for help with my bots. 123OUTERME IS AWESOME!!!
+**123outerme** for help with my bots. 
 
-**PT\_** for help with my bots. AWESOME!!!
+**SM84CE (SanJivanM)** for letting me use some of his bot commands inreturn for using some of mine.
 
-**LAX18** for helping with UniChat. AWESOME!!!
+**PT\_** for help with my bots. 
 
-**[JSHint](http://jshint.com/)** for helping me find errors in my code. YEAH!!!
+**LAX18** for helping with UniChat. 
+
+**[JSHint](http://jshint.com/)** for helping me find errors in my code. 
 
 ***Thanks guys!***
