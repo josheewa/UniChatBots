@@ -35,11 +35,14 @@ Mainly for me to experiment with js and commands.
 
 **jonbush** for fixing DoorsCE jcgterBOT. JONBUSH IS AWESOME!!! 
 
-**\_iPhoenix\_** for UniChat and help with my bots IPHOENIX IS AWESOME!!!
+**\_iPhoenix\_** for UniChat and help with my bots. IPHOENIX IS AWESOME!!!
+
+**PT\_** for help with my bots. AWESOME!!!
 
 **123outerme** for help with my bots. AWESOME!!!
 
 **LAX18** for helping with UniChat. AWESOME!!!
 
-**[JSHint](http://jshint.com/)** for helping me find errors in my code. EH!!!
+**[JSHint](http://jshint.com/)** for helping me find errors in my code. YEAH!!!
+
 ***Thanks guys!***
