@@ -9,7 +9,7 @@ This is the place where I'll be experimenting with making UniChat Bots. As of ri
 **[FriendlyBOT] waves back at user
 
 ### roomBOT
-**user**: roomBot: #spam  (roomBot: spam works as well.)
+**user**: roomBot: #spam  ("roomBot: spam" works as well.)
 
 [roomBOT]: Here's the link: https://legend-of-iphoenix.github.io/UniChatDemo/?room=spam
 
