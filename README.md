@@ -37,9 +37,9 @@ Mainly for me to experiment with js and commands.
 
 **\_iPhoenix\_** for UniChat and help with my bots. IPHOENIX IS AWESOME!!!
 
-**PT\_** for help with my bots. AWESOME!!!
+**123outerme** for help with my bots. 123OUTERME IS AWESOME!!!
 
-**123outerme** for help with my bots. AWESOME!!!
+**PT\_** for help with my bots. AWESOME!!!
 
 **LAX18** for helping with UniChat. AWESOME!!!
 
