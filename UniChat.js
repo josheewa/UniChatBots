@@ -1,7 +1,9 @@
 var UniChat = new Bot("UniChat", "\");
+                      
 function initializeBots() {
   UniChat.register();
 }
+
 UniChat.executeCommand =  function(data) {
   var poster = data.poster;
   var message = data.message;
