@@ -39,7 +39,7 @@ Mainly for me to experiment with js and commands.
 
 **123outerme** for help with my bots. 
 
-**SM84CE (SanJivanM)** for letting me use some of his bot commands inreturn for using some of mine.
+**SM84CE (SanJivanM)** for letting me use some of his bot commands in return for using some of mine.
 
 **PT\_** for help with my bots. 
 
