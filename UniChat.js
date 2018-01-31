@@ -1,4 +1,4 @@
-var UniChat = new Bot("UniChat", "\");
+var UniChat = new Bot("UniChat", "/");
                       
 function initializeBots() {
   UniChat.register();
