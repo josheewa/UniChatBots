@@ -17,7 +17,7 @@ DoorsCE.executeCommand = function(data) {
   if (message.startsWith("hello"))
     DoorsCE.respond(poster + ": Hello to you too!");
   
-  if (message.startsWith("i am sad"))
+  if (message.startsWith("sad"))
     DoorsCE.respond(poster + ": Awww.");
 
   if (message.startsWith("jcgterinfo"))
@@ -51,7 +51,7 @@ DoorsCE.executeCommand = function(data) {
     DoorsCE.respond("Someone's up for sale at the BBQ place?");
   
   if (message.startsWith("omg"))
-    DoorsCE.respond("Oh my gosh! WHat happened?");
+    DoorsCE.respond("Oh my gosh! What happened?");
   
   if (message.startsWith("dce"))
     DoorsCE.respond("DoorsCE's been delayed because of all you noobs asking for it!!!!!!");
