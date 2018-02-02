@@ -23,10 +23,10 @@ A bot that tells you when someone enters and leaves the room. It works, but it's
 You can fake ban or kick someone. It works, but it's not on UniChat. Now, I just need \_iPhoenix\_ to help me make the person *actually* become "inactive", as in their name disappears from the side bar for ~10 seconds, as a joke. (I'll make it so that if you don't want this to happen to you, that you can ask me to put in an exception.)
 
 ### jcgterBOT
-Lots of different commands. Activated with "~". I need to fix an error with some part of the code. Most likely "~karme".
+Lots of different commands. Activated with "~". All errors fixed!
 
 ### DoorsCE
-Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though. This is activated with "!". There are still bugs with this. 
+Taken from both jcgterBOT and DoorsCS, mainly because jcgterBOT wouldn't work. It's activated diffrently, though. This is activated with "!". All bugs fixed!
 
 ### ExpBot
 Mainly for me to experiment with js and commands.
@@ -45,6 +45,6 @@ Mainly for me to experiment with js and commands.
 
 **LAX18** for helping with UniChat. 
 
-**[JSHint](http://jshint.com/)** for helping me find errors in my code. 
+**[JSHint](http://jshint.com/)** for helping me find errors in my code. :P
 
 ***Thanks guys!***
